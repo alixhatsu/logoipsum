@@ -122,6 +122,7 @@ main {
 }
 
 .hero__desc {
+    font-family: "Mulish", sans-serif;
     font-size: 20px;
     letter-spacing: -0.63px;
     line-height: 30px;
