@@ -262,54 +262,6 @@ main {
 
 .subscription__header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.subscription__title {
-    font-weight: 700;
-    font-size: 60px;
-    letter-spacing: -1.88px;
-    line-height: 70px;
-}
-
-.subscription__tabs {
-    display: flex;
-    border-block: 5px solid #F7F7FB;
-    border-inline: 6px solid #F7F7FB;
-    border-radius: 10px;
-}
-
-.subscription__tab {
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: -0.5px;
-    border: none;
-    background: #F7F7FB;
-    padding: 17px 56px;
-    border-radius: 0 10px 10px 0;
-    color: var(--dark);
-}
-
-.subscription__tab.active {
-    background: var(--purple);
-    border-radius: 10px 0 0 10px;
-    color: white;
-}
-
-.subscription {
-    padding-block: 118px 158px;
-}
-
-.subscription__container {
-    display: flex;
-    flex-direction: column;
-    gap: 82px;
-}
-
-.subscription__header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
